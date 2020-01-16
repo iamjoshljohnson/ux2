@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>UXjs Playground</title>
+    </head>
+
+    <body>
+        <div data-ux="aria-checkbox aria-test">
+            <div id="child1" data-ux="parent">
+                <div id="child3" data-ux="child"></div>
+            </div>
+            <div id="child2" data-ux></div>
+        </div>
+        <script type="text/javascript" src="dist/ux.js"></script>
+        <script type="text/javascript">
+            ux.debug();
+            ux.init();
+        </script>
+    </body>
+
+</html>
