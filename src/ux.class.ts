@@ -5,24 +5,24 @@
  * / /_/ / ___ |/ /  / /___/ /_/ / /_/ (__  )
  * `____/_/  |_/_/  /_____/`__,_/_.___/____/
  *
- * @package UXjs
+ * @package UX2
  * @author UA1 Labs Developers https://ua1.us
  * @copyright Copyright (c) UA1 Labs
  */
 
-import { ExperienceFactoryInterface } from '@uxjs/ux/experience-factory.interface';
-import { HTMLExperienceElement } from '@uxjs/ux/html-experience-element.interface';
-import { UxDebugClass } from '@uxjs/ux/debug.class';
-import { UxHelperClass } from '@uxjs/ux-helper.class';
+import { ExperienceFactoryInterface } from '@ux2/ux/experience-factory.interface';
+import { HTMLExperienceElement } from '@ux2/ux/html-experience-element.interface';
+import { UxDebugClass } from '@ux2/ux/debug.class';
+import { UxHelperClass } from '@ux2/ux-helper.class';
 
 /**
- * The main entry point into the UXjs API. This class ties together all of the logic
+ * The main entry point into the UX2 API. This class ties together all of the logic
  * between HTMLElements and the experience definitions.
  */
 export class UxClass {
 
     /**
-     * Registers an experience with the UXjs framework.
+     * Registers an experience with the UX2 framework.
      * @param name The name the that will tie the experience instance to the html node [data-ux]
      * @param factory A callback that returns an object that matches the ExperienceInterface
      */

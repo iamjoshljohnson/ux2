@@ -1,3 +1,3 @@
-# UXjs
+# UX2
 
-The #1 User Experience Framework For The Web
+A Framework For Building User Experiences On The Web.

@@ -1,7 +1,7 @@
 {
-    "name": "@ua1-labs/uxjs",
-    "version": "2.0.0",
-    "description": "The #1 User Experience Framework For The Web",
+    "name": "@ua1-labs/ux2",
+    "version": "1.0.0",
+    "description": "A Framework For Building User Experiences On The Web.",
     "scripts": {
         "build": "node_modules/.bin/webpack",
         "build:watch": "node_modules/.bin/webpack --watch=true",
@@ -9,17 +9,18 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ua1-labs/uxjs.git"
+        "url": "git+https://github.com/ua1-labs/ux2.git"
     },
     "keywords": [
-        "mvvm"
+        "mvvm",
+        "plugins"
     ],
     "author": "UA1 Labs <development@ua1.us>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ua1-labs/uxjs/issues"
+        "url": "https://github.com/ua1-labs/ux2/issues"
     },
-    "homepage": "https://github.com/ua1-labs/uxjs#readme",
+    "homepage": "https://github.com/ua1-labs/ux2#readme",
     "devDependencies": {
         "ts-loader": "^6.0.3",
         "typescript": "^3.5.2",

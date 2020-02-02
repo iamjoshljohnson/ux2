@@ -5,19 +5,19 @@
  * / /_/ / ___ |/ /  / /___/ /_/ / /_/ (__  )
  * `____/_/  |_/_/  /_____/`__,_/_.___/____/
  *
- * @package UXjs
+ * @package UX2
  * @author UA1 Labs Developers https://ua1.us
  * @copyright Copyright (c) UA1 Labs
  */
 
-import { ExperienceFactoryInterface } from '@uxjs/ux/experience-factory.interface';
-import { ExperienceInterface } from '@uxjs/ux/experience.interface';
-import { HTMLExperienceElement } from '@uxjs/ux/html-experience-element.interface';
-import { UxDebugClass } from '@uxjs/ux/debug.class';
+import { ExperienceFactoryInterface } from '@ux2/ux/experience-factory.interface';
+import { ExperienceInterface } from '@ux2/ux/experience.interface';
+import { HTMLExperienceElement } from '@ux2/ux/html-experience-element.interface';
+import { UxDebugClass } from '@ux2/ux/debug.class';
 
 /**
- * This helper class is a singleton instance and is meant to provide the public UXjs
- * API with the core logic to make UXjs function.
+ * This helper class is a singleton instance and is meant to provide the public UX2
+ * API with the core logic to make UX2 function.
  */
 export class UxHelperClass {
 
@@ -190,7 +190,7 @@ export class UxHelperClass {
      */
     public bindExperienceToElement(name: string, element: HTMLElement): void {
         if (!this.experienceFactories[name]) {
-            const nameError = 'The user experience "' + name + '" must be registered with UXjs';
+            const nameError = 'The user experience "' + name + '" must be registered with UX2';
             UxDebugClass.warn(nameError);
             return;
         }

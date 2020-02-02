@@ -1,4 +1,4 @@
-import { HTMLExperienceElement } from '@uxjs/ux/html-experience-element.interface';
+import { HTMLExperienceElement } from '@ux2/ux/html-experience-element.interface';
 
 export interface ExperienceInterface {
 
@@ -15,7 +15,7 @@ export interface ExperienceInterface {
 
     /**
      * The HTMLElement the experience is tied to. The reason it is defined
-     * as a HTMLExperienceElement is because UXjs adds a "uxs" object to the
+     * as a HTMLExperienceElement is because UX2 adds a "uxs" object to the
      * HTMLElement that will contain the instances of the experiences tied
      * to that particular HTMLElement.
      */

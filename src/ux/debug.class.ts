@@ -1,6 +1,6 @@
 export class UxDebugClass {
 
-    public static readonly TAGLINE = 'UXjs';
+    public static readonly TAGLINE = 'UX2';
 
     public static readonly ERROR_TAGLINE = '[ERROR]: ';
 

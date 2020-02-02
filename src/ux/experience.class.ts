@@ -5,13 +5,13 @@
  * / /_/ / ___ |/ /  / /___/ /_/ / /_/ (__  )
  * `____/_/  |_/_/  /_____/`__,_/_.___/____/
  *
- * @package UXjs
+ * @package UX2
  * @author UA1 Labs Developers https://ua1.us
  * @copyright Copyright (c) UA1 Labs
  */
 
-import { ExperienceInterface } from '@uxjs/ux/experience.interface';
-import { HTMLExperienceElement } from '@uxjs/ux/html-experience-element.interface';
+import { ExperienceInterface } from '@ux2/ux/experience.interface';
+import { HTMLExperienceElement } from '@ux2/ux/html-experience-element.interface';
 
 /**
  * The abstract class all experiences should inheret from.
@@ -31,7 +31,7 @@ export abstract class ExperienceClass implements ExperienceInterface {
 
     /**
      * The HTMLElement the experience is tied to. The reason it is defined
-     * as a HTMLExperienceElement is because UXjs adds a "uxs" object to the
+     * as a HTMLExperienceElement is because UX2 adds a "uxs" object to the
      * HTMLElement that will contain the instances of the experiences tied
      * to that particular HTMLElement.
      */

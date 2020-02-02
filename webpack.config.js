@@ -15,7 +15,7 @@ module.exports = {
     resolve: {
         extensions: ['.ts'],
         alias: {
-            '@uxjs': path.resolve(__dirname, 'src/')
+            '@ux2': path.resolve(__dirname, 'src/')
         }
     },
     output: {

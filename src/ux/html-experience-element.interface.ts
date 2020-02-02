@@ -1,4 +1,4 @@
-import { ExperienceInterface } from '@uxjs/ux/experience.interface';
+import { ExperienceInterface } from '@ux2/ux/experience.interface';
 
 export interface HTMLExperienceElement extends HTMLElement {
 

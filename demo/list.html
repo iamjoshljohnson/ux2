@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>UX2 Todo List</title>
+    </head>
+
+    <body>
+        <div class="personal" data-ux="todo-list"></div>
+        <div class="business" data-ux="todo-list"></div>
+        <script type="text/javascript" src="/dist/ux.js"></script>
+        <script type="text/javascript">
+            ux2.experience('todo-list', function (id, element) {
+                return {
+                    id: id,
+                    element: element,
+                    onInit: function () {
+                        this.list = [];
+                    },
+                    onUpdate: function () {
+                        debugger;
+                    },
+                    setListItems(list) {
+                        this.list = list;
+                    },
+                    addItem: function (item) {
+                        this.list.push(item);
+                    },
+                    markItemComplete: function (index) {
+
+                    },
+                    markItemIncomplete: function (index) {
+
+                    },
+                    deleteItem: function (index) {
+
+                    },
+                };
+            });
+            ux2.debug();
+            ux2.init();
+        </script>
+    </body>
+
+</html>
